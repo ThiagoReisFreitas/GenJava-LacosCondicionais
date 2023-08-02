@@ -34,6 +34,8 @@ public class LacosCondicionaisSwitch1
 			break;
 		case 6:
 			System.out.printf("Produto: Suco de laranja\nValor total: R$%.2f",13.0f*quant);
+		default:
+			System.out.print("Opção Inválida!");
 
 		}
 	}

@@ -38,6 +38,8 @@ public class LacosCondicionaisSwitch2
 			break;
 		case 6:
 			System.out.printf("Nome do colaborador: %s\nCargo: Técnico de TI\nSalário: %.2f",nome, salario + ((salario*8)/100));
+		default:
+			System.out.println("Opção Inválida!");
 		}
 		
 	}
